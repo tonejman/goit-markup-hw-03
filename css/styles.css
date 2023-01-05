@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #757575;
   --secondary-color: #212121;
@@ -14,7 +15,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 1600px;
   margin: 0 auto;
 }
 body,
@@ -149,11 +149,7 @@ body,
 }
 .main-block {
   display: flex;
-  /*
-  width: 1600px;
-  height: 600px;  */
-  text-align: center; /*
-  padding: 21.4vh 0; */
+  text-align: center; 
   padding: 200px 0;
   background-color: var(--background-block-color);
 }
@@ -365,10 +361,12 @@ section {
 }
 
 .card-range {
-  
+ border-left: 1px solid;
   border-bottom: 1px solid;
+  border-right: 1px solid;
   border-color: var(--border-card-color);
   background-color: var(--white-joint-color);
+
 }
 .card-image {
   display: block;
