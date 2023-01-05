@@ -259,15 +259,13 @@ h5 {
   padding: 0;
 }
 .menu-nav .item {
-  padding-top: 8px;
-  padding-bottom: 7px;
+ 
   margin-left: 0;
   margin-right: 46px;
 }
 
 .contacts .item {
-  padding-top: 8px;
-  padding-bottom: 7px;
+  
   margin-right: 50px;
 }
 
@@ -279,10 +277,12 @@ h5 {
   margin-right: 0;
 }
 
-.top {
-  margin: 0;
-  padding-top: 24px;
-  padding-bottom: 25px;
+.page-header {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 80px;
   border-bottom: 1px solid;
   border-color: var(--border-header-color);
 }
@@ -328,6 +328,9 @@ section {
 
 .headline {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .team {
   background-color: var(--background-team-color);
